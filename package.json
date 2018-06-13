@@ -8,12 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/song940/node-escpos.git"
+    "url": "git+https://github.com/marceloch2/node-escpos.git"
   },
-  "keywords": [
-    "escpos",
-    "printer"
-  ],
+  "keywords": ["escpos", "printer"],
   "author": "lsong",
   "contributors": [
     "Jose Vera <hola@jose.com.co>",
@@ -33,9 +30,7 @@
   },
   "optionalDependencies": {
     "get-pixels": "*",
-    "serialport": "*",
-    "qr-image": "*",
-    "usb": "*"
+    "qr-image": "*"
   },
   "devDependencies": {
     "mocha": "*"
